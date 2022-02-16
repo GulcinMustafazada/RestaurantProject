@@ -566,3 +566,22 @@ a.reservation-button:hover {
 .team-member-img img :hover {
     background-color: #4a4d4f;
 }
+
+.blog-content {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.blog-single-content {
+    width: 370px;
+    margin: 10px;
+}
+
+.blog-image {
+    width: 370px;
+}
+
+.blog-image img {
+    width: 100%;
+}
