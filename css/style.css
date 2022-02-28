@@ -603,6 +603,10 @@
                 height: 500px;
             }
             
+            .blog-single-content:hover {
+                box-shadow: 1px 1px 8px 8px #d65959;
+            }
+            
             .blog-content-about {
                 background-color: #fff;
                 height: 250px;
@@ -648,4 +652,17 @@
             
             .blog-content-about a:hover {
                 color: #ca3d26;
+            }
+            
+            #footer {
+                background-image: url(../images/footer_bg_2.jpg);
+                background-size: cover;
+                margin-top: 100px;
+            }
+            
+            .footer-container-about {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
             }
