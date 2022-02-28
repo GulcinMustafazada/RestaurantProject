@@ -558,11 +558,17 @@
                 position: absolute;
                 right: 10%;
                 top: 50%;
-                transition: all .3s ease;
+                transition: all .1s ease;
+                display: none;
             }
             
             .member-social-bookmark ul li {
                 margin: 15px 0;
+            }
+            
+            .member-social-bookmark ul li {
+                margin: 15px 0;
+                transition: all .5s ease;
             }
             
             .team-member:hover {
@@ -570,8 +576,8 @@
                 box-shadow: 1px 1px 5px 5px #c9c7c7;
             }
             
-            .team-member :hover.member-social-bookmark {
-                display: inline;
+            .team-member :hover .member-social-bookmark {
+                display: block;
                 cursor: pointer;
                 z-index: 1;
             }
