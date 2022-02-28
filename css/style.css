@@ -539,6 +539,11 @@
                 text-align: center;
             }
             
+            .team-member-detail h3:hover {
+                color: #ca3d26;
+                cursor: pointer;
+            }
+            
             .team-member-detail h3 {
                 transition: all 0.3s ease 0s;
                 letter-spacing: 1px;
@@ -562,13 +567,10 @@
                 display: none;
             }
             
-            .member-social-bookmark ul li {
-                margin: 15px 0;
-            }
-            
-            .member-social-bookmark ul li {
+            .member-social-bookmark ul li a i {
                 margin: 15px 0;
                 transition: all .5s ease;
+                color: #ca3d26;
             }
             
             .team-member:hover {
@@ -580,6 +582,13 @@
                 display: block;
                 cursor: pointer;
                 z-index: 1;
+                color: #ca3d26;
+                transform: translate(20px 20px);
+            }
+            
+            #blog {
+                background-image: url(../images/promotions_area_bg_3.jpg);
+                background-size: cover;
             }
             
             .blog-content {
@@ -590,13 +599,53 @@
             
             .blog-single-content {
                 width: 370px;
-                margin: 10px;
+                margin: 0px 10px;
+                height: 500px;
+            }
+            
+            .blog-content-about {
+                background-color: #fff;
+                height: 250px;
             }
             
             .blog-image {
                 width: 370px;
+                height: 250px;
             }
             
             .blog-image img {
                 width: 100%;
+            }
+            
+            .blog-content-about {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .blog-content-about h3 {
+                font-size: 23px;
+                font-weight: 400;
+                text-align: center;
+                color: #212324;
+            }
+            
+            .blog-content-about h3:hover {
+                color: #ca3d26;
+                cursor: pointer;
+            }
+            
+            .blog-content-about p {
+                margin: 20px;
+                text-align: center;
+            }
+            
+            .blog-content-about a {
+                text-decoration: none;
+                color: #212324;
+            }
+            
+            .blog-content-about a:hover {
+                color: #ca3d26;
             }
