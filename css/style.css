@@ -10,6 +10,7 @@
                     letter-spacing: 0.3px;
                     line-height: 1.7em;
                 }
+                /*Home Section Style Starts*/
                 
                 #home {
                     position: relative;
@@ -223,6 +224,8 @@
                     background-color: #ca3d26;
                     border: none;
                 }
+                /*Home Section Style Ends*/
+                /*About Section Style Starts*/
                 
                 #about {
                     background: url(../images/home_three_about_bg.png) no-repeat scroll center bottom / contain;
@@ -287,6 +290,8 @@
                     justify-content: center;
                     padding-top: 50px;
                 }
+                /*About Section Style Ends*/
+                /*Offer Section Style Starts*/
                 
                 .offer-container {
                     background: url(../images/promotions_area_bg_1.jpg) no-repeat fixed center center / cover;
@@ -374,6 +379,8 @@
                     color: #fff;
                     background-color: #ca3d26;
                 }
+                /*Offer Section Style Ends*/
+                /*Menu Section Style Starts*/
                 
                 .menu-list ul {
                     display: flex;
@@ -514,6 +521,8 @@
                     background: #ca3d26 none repeat scroll 0 0;
                     color: #fff;
                 }
+                /*Menu Section Style Ends*/
+                /*Team Section Style Starts*/
                 
                 .team-about {
                     display: flex;
@@ -585,6 +594,8 @@
                     color: #ca3d26;
                     transform: translate(20px 20px);
                 }
+                /*Team Section Style Ends*/
+                /*Blog Section Style Starts*/
                 
                 #blog {
                     background-image: url(../images/promotions_area_bg_3.jpg);
@@ -654,6 +665,8 @@
                 .blog-content-about a:hover {
                     color: #ca3d26;
                 }
+                /*Blog Section Style Ends*/
+                /*Footer Section Style Starts*/
                 
                 #footer {
                     background-image: url(../images/footer_bg_2.jpg);
@@ -757,3 +770,4 @@
                 .footer-copyright a:hover {
                     color: #fff;
                 }
+                /*Footer Section Style Ends*/
